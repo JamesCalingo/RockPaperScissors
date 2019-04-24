@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>ACTION</title>
+</head>
+
+<body>
+  <div class="container heading-game text-center">
+    <h1 class="title">
+      IT'S GAMETIME!
+    </h1>
+    <p class="subtitle">
+      You ready?
+    </p>
+  </div>
+
+
+  <div class="container">
+    <div class="card">
+      <header class="card-header">
+        <p class="card-header-title text-center">
+          You know how this works: pick Rock, Paper, or Scissors. Your opponent will do the same, and then we'll
+          compare your selections.
+          As always:</p>
+        <ul>
+          <li>Rock beats Scissors</li>
+          <li>Paper beats Rock</li>
+          <li>Scissors beats Paper</li>
+        </ul>
+
+      </header>
+      <div class="card-content my-5">
+        <div class="content text-center">
+
+          <a href="#" class="btn button btn-danger btn-outline btn-large text-center">Rock</a>
+          <a href="#" class="button btn btn-large btn-outline btn-success ">Paper</a>
+          <a href="#" class="btn button btn-large btn-outline btn-info ">Scissors</a>
+
+        </div>
+      </div>
+      <footer class="card-footer text-center">
+        <h3 id="playerChoice">You chose: (selection)</h3>
+        <h3 id="opponentChoice">Your opponent chose: (selection)</h3>
+        <h1 id="result"></h1>
+      </footer>
+    </div>
+    <div class="card">
+      <div class="chatArea text-center">
+        Feel free to let your opponent know how you feel about them/the game/the fact that you're playing this whilst on
+        the toilet/whatever here!
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
