@@ -43,5 +43,6 @@ $(".btn").on("click", function(event){
     $("#result").html("You lost!")
     losses++
   }
+  $("#record").html(`Your record:<br>${wins} Wins<br>${losses} Losses <br>${ties} Ties`)
 })
 
