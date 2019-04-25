@@ -12,6 +12,7 @@ var ties = 0
 $(".btn").on("click", function(event){
   event.preventDefault();
   player = $(this).attr("data-attribute");
+  random = Math.floor(Math.random() * 3);
   opponent = choices[random]
   $("#playerChoice").html("You Chose: " + player);
   $("#opponentChoice").html("Your opponent chose: " + opponent)
