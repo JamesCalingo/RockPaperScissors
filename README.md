@@ -1,11 +1,15 @@
 # RPSWithYourFriends
 Rock Paper Scissors with your "friends"! What could be more fun than that? Well...
 
-# How it (is supposed to) work(s)
+# How it works
 
-Two users will be put together. They will each choose rock, paper, or scissors, and then their choices will be compared. If they choose the same thing, then it's a draw. Otherwise, one will win and the other will lose based on regular Rock Paper Scissors rules.<br/>
+The user selects Rock, Paper, or Scissors from three buttons. The computer randomly selects one of the options, and then the two selections are compared.<br>
 
-However...I haven't quite figured out the whole "connecting two people together" bit yet, so for now it's just a game against the computer which picks one of the three at random.
+Standard Rock, Paper, Scissors rules apply.
+
+# In the Future
+
+This app is meant to be multiplayer, but this is still under construction.
 
 # Technology Used
 * HTML
